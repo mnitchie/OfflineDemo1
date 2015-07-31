@@ -3,3 +3,7 @@ CACHE MANIFEST
 CACHE:
 /favicon.ico
 /style/app.css
+http://code.jquery.com/jquery-1.11.3.min.js
+
+NETWORK:
+/scripts/counter.js
