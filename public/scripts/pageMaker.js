@@ -15,8 +15,6 @@ $(document).ready(function() {
 
         li.html(link);
         $('#linkContainer').append(li);
-
-        applicationCache.update();
       }
     });
   });
