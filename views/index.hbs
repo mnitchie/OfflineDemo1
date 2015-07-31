@@ -6,14 +6,25 @@
   <link rel="stylesheet" type="text/css" href="style/app.css">
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="/scripts/counter.js"></script>
+  <script src="/scripts/pageMaker.js"></script>
 </head>
 <body>
+
   <h1>Hello, Offline!</h1>
-  
-  <img src="/images/greenLight.jpg"
+
+  <div>
+    <img src="/images/greenLight.jpg"
        alt="light bulb"
        height="100"
        width="100">
+  </div>
+
+  <button id="pageMaker">Create a new page...</button>
+  <ul id="linkContainer">
+    {{#each pageIds}}
+      <li><a href="/pages/{{this}}">{{this}}</a></li>
+    {{/each}}
+  </ul>
 
   <div id="counter"></div>
 
