@@ -1,5 +1,5 @@
 #Offline Demo 01
-This repository contains a number of demo applications meant to show the capabilities of the HTML5 application cache api. Every version has a demo running [here](http://www.mikenitchie.com)
+This repository contains a number of demo applications meant to show the capabilities of the HTML5 application cache api. Every version has a demo running [here](http://www.mikenitchie.com).
 
 Rather than have a one repository per application, here is a single repo with multiple [tagged releases](https://github.com/mnitchie/OfflineDemo1/releases) (V01, V02...), each one showing an incremental change over the previous. Jump between tags with `git checkout VXX`, replacing `XX` with the desired version number. Install the required dependencies with `npm install` then run with `node app.js`.
 
